@@ -1,12 +1,49 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #504e4e; 
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem; 
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: limegreen;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-bottom: 20px;
+  }
+  
+  .clock span {
+    margin-right: 10px;
+    font-size: 3rem; 
+  }
+  
+  .digit {
+    margin: 0 5px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .buttons button {
+    margin: 0 5px; 
+  }
+  
